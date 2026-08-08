@@ -1,0 +1,536 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:"Yu Gothic";
+background:#fffaf8;
+color:#333;
+}
+
+header{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:20px 60px;
+
+background:white;
+
+position:fixed;
+top:0;
+width:100%;
+
+box-shadow:0 3px 10px rgba(0,0,0,.08);
+
+z-index:999;
+}
+
+.logo{
+
+font-size:36px;
+
+font-weight:bold;
+
+color:#ff6b6b;
+
+}
+
+nav a{
+
+text-decoration:none;
+
+margin-left:25px;
+
+color:#555;
+
+font-weight:bold;
+
+}
+
+nav a:hover{
+
+color:#ff6b6b;
+
+}
+
+.hero{
+    width:100%;
+    margin-top:110px;
+}
+
+.hero img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+.hero h1{
+
+font-size:70px;
+
+color:#ff6b6b;
+
+margin-bottom:20px;
+
+}
+
+.hero p{
+
+font-size:28px;
+
+line-height:1.8;
+
+}
+
+.btn-area{
+
+margin-top:50px;
+
+}
+
+button{
+
+padding:18px 40px;
+
+font-size:18px;
+
+margin:10px;
+
+border:none;
+
+border-radius:40px;
+
+background:#ff6b6b;
+
+color:white;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+button:hover{
+
+transform:scale(1.08);
+
+}
+
+.about{
+
+padding:180px 50px 120px;
+
+text-align:center;
+
+}
+
+.about h2{
+
+font-size:45px;
+
+margin-bottom:30px;
+
+color:#ff6b6b;
+
+}
+
+.about p{
+
+font-size:24px;
+
+line-height:2.4;
+
+margin-top:50px;
+
+}
+.logo img{
+
+height:70px;
+
+}
+
+
+
+.overlay{
+
+background:rgba(255,255,255,.75);
+
+width:100%;
+
+height:100%;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+}
+
+.feature{
+
+padding:120px 60px;
+
+background:white;
+
+}
+
+.feature h2{
+
+text-align:center;
+
+font-size:48px;
+
+color:#ff6b6b;
+
+margin-bottom:60px;
+
+}
+
+.cards{
+
+display:flex;
+
+gap:30px;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+}
+
+.card{
+
+width:320px;
+
+padding:40px;
+
+background:#fff6f6;
+
+border-radius:25px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.card h3{
+
+font-size:28px;
+
+margin-bottom:20px;
+
+color:#ff6b6b;
+
+}
+
+.card p{
+
+line-height:1.8;
+
+font-size:18px;
+
+}
+.about-image{
+
+    width:100%;
+
+    max-width:1000px;
+
+    display:block;
+
+    margin:40px auto;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+.device{
+
+    padding:180px 50px 120px;
+
+    text-align:center;
+
+}
+
+.device h2{
+
+    font-size:45px;
+
+    color:#ff6b6b;
+
+    margin-bottom:40px;
+
+}
+
+.device p{
+
+    font-size:24px;
+
+    line-height:2.2;
+
+}
+.device-image{
+
+    width:100%;
+
+    max-width:1000px;
+
+    display:block;
+
+    margin:40px auto;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+.scene{
+
+    padding:180px 50px 120px;
+
+    text-align:center;
+
+}
+
+.scene h2{
+
+    font-size:45px;
+
+    color:#ff6b6b;
+
+    margin-bottom:40px;
+
+}
+
+.scene p{
+
+    font-size:24px;
+
+    line-height:2.2;
+
+    margin-top:30px;
+
+}
+
+.scene-image{
+
+    display:block;
+
+    width:100%;
+
+    max-width:1000px;
+
+    margin:40px auto;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+.price{
+
+    padding:180px 50px 120px;
+
+    text-align:center;
+
+}
+
+.price h2{
+
+    font-size:45px;
+
+    color:#ff6b6b;
+
+    margin-bottom:40px;
+
+}
+
+.price p{
+
+    font-size:24px;
+
+    line-height:2.2;
+
+    margin-top:30px;
+
+}
+
+.price-image{
+
+    display:block;
+
+    width:100%;
+
+    max-width:1000px;
+
+    margin:40px auto;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+.story{
+
+    padding:180px 50px 120px;
+
+    text-align:center;
+
+}
+
+.story h2{
+
+    font-size:45px;
+
+    color:#ff6b6b;
+
+    margin-bottom:40px;
+
+}
+
+.story p{
+
+    font-size:24px;
+
+    line-height:2.2;
+
+    margin-top:30px;
+
+}
+
+.story-image{
+
+    display:block;
+
+    width:100%;
+
+    max-width:1000px;
+
+    margin:40px auto;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+.faq{
+
+    padding:180px 50px 120px;
+
+}
+
+.faq h2{
+
+    text-align:center;
+
+    font-size:45px;
+
+    color:#ff6b6b;
+
+    margin-bottom:50px;
+
+}
+
+.faq-box{
+
+    max-width:1000px;
+
+    margin:auto;
+
+}
+
+.faq-box h3{
+
+    background:#ff6b6b;
+
+    color:white;
+
+    padding:15px 20px;
+
+    border-radius:10px;
+
+    margin-top:25px;
+
+}
+
+.faq-box p{
+
+    background:#fff;
+
+    padding:20px;
+
+    border:1px solid #eee;
+
+    border-radius:0 0 10px 10px;
+
+    line-height:2;
+
+    font-size:20px;
+
+}
+/* お問い合わせページ */
+
+.contact{
+    padding:180px 50px 120px;
+    max-width:900px;
+    margin:0 auto;
+}
+
+.contact h2{
+    text-align:center;
+    font-size:45px;
+    color:#ff6b6b;
+    margin-bottom:20px;
+}
+
+.contact-text{
+    text-align:center;
+    font-size:22px;
+    line-height:2;
+    margin-bottom:50px;
+}
+
+.contact-form{
+    display:flex;
+    flex-direction:column;
+}
+
+.contact-form label{
+    margin:18px 0 8px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+    font-family:inherit;
+}
+
+.contact-form textarea{
+    resize:vertical;
+}
+
+.contact-form button{
+    width:250px;
+    margin:40px auto 0;
+}
