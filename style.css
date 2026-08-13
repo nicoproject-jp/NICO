@@ -537,6 +537,26 @@ font-size:18px;
     resize:vertical;
 }
 
+.site-footer{
+    text-align:center;
+    padding:40px 20px;
+    background:#fff;
+    margin-top:80px;
+}
+
+.site-footer p{
+    margin:10px 0;
+    font-size:16px;
+}
+
+.site-footer a{
+    color:#555;
+    text-decoration:none;
+}
+
+.site-footer a:hover{
+    color:#ff6b6b;
+}
 .contact-form button{
     width:250px;
     margin:40px auto 0;
