@@ -561,3 +561,29 @@ font-size:18px;
     width:250px;
     margin:40px auto 0;
 }
+
+.privacy{
+    padding:180px 50px 120px;
+    max-width:1000px;
+    margin:0 auto;
+}
+
+.privacy h2{
+    text-align:center;
+    font-size:45px;
+    color:#ff6b6b;
+    margin-bottom:60px;
+}
+
+.privacy h3{
+    font-size:28px;
+    color:#333;
+    margin-top:50px;
+    margin-bottom:20px;
+}
+
+.privacy p{
+    font-size:20px;
+    line-height:2.2;
+    margin-top:15px;
+}
