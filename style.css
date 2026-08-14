@@ -587,3 +587,21 @@ font-size:18px;
     line-height:2.2;
     margin-top:15px;
 }
+
+.price-button{
+    display:block;
+    width:320px;
+    margin:40px auto;
+    padding:20px 30px;
+    text-align:center;
+    background:#ff6b6b;
+    color:#fff;
+    font-size:24px;
+    font-weight:bold;
+    text-decoration:none;
+    border-radius:12px;
+}
+
+.price-button:hover{
+    opacity:0.85;
+}
