@@ -631,12 +631,9 @@ font-size:18px;
         padding:5px 8px;
     }
 
-        main{
-        padding-top:250px;
-    }
-
+        
     .hero{
-        margin-top:0;
+        margin-top:250;
     }
 
     .hero h1{
