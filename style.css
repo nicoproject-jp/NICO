@@ -632,9 +632,10 @@ font-size:18px;
     }
 
         
-    .hero{
-        margin-top:350;
-    }
+   .hero{
+    margin-top:0;
+    padding-top:280px;
+}
 
     .hero h1{
         font-size:42px;
