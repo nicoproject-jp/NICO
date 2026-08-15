@@ -605,3 +605,79 @@ font-size:18px;
 .price-button:hover{
     opacity:0.85;
 }
+
+@media (max-width: 768px){
+
+    header{
+        flex-direction:column;
+        padding:15px 20px;
+    }
+
+    .logo img{
+        height:55px;
+    }
+
+    nav{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:8px;
+        margin-top:10px;
+    }
+
+    nav a{
+        margin-left:0;
+        font-size:14px;
+        padding:5px 8px;
+    }
+
+    .hero{
+        margin-top:150px;
+    }
+
+    .hero h1{
+        font-size:42px;
+    }
+
+    .hero p{
+        font-size:20px;
+    }
+
+    .price,
+    .about,
+    .device,
+    .scene,
+    .story,
+    .contact,
+    .faq,
+    .privacy{
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+    .price h2,
+    .about h2,
+    .device h2,
+    .scene h2,
+    .story h2,
+    .contact h2,
+    .faq h2,
+    .privacy h2{
+        font-size:34px;
+    }
+
+    .price p,
+    .about p,
+    .device p,
+    .scene p,
+    .story p{
+        font-size:18px;
+    }
+
+    .price-button{
+        width:90%;
+        max-width:320px;
+        font-size:20px;
+    }
+
+}
