@@ -680,14 +680,4 @@ font-size:18px;
         font-size:20px;
     }
 
-    .hero{
-        height:auto;
-    }
-
-    .hero img{
-        width:100%;
-        height:auto;
-        display:block;
-    }
-    
 }
