@@ -762,3 +762,25 @@ font-size:18px;
     transform:translateY(-3px);
     opacity:.9;
 }
+
+.campfire-button{
+    display:block;
+    width:520px;
+    max-width:85%;
+    margin:45px auto 55px;
+    padding:22px 30px;
+    box-sizing:border-box;
+    text-align:center;
+    background:#f3273f;
+    color:#fff !important;
+    font-size:24px;
+    font-weight:bold;
+    text-decoration:none !important;
+    border-radius:12px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.15);
+}
+
+.campfire-button:hover{
+    opacity:0.88;
+    transform:translateY(-2px);
+}
