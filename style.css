@@ -720,3 +720,24 @@ font-size:18px;
     }
 
 }
+
+.price-image-link{
+    position:relative;
+    width:100%;
+    max-width:1000px;
+    margin:40px auto;
+}
+
+.price-image-link .price-image{
+    margin:0;
+}
+
+.campfire-overlay{
+    position:absolute;
+    left:50%;
+    top:78%;
+    transform:translate(-50%,-50%);
+    width:42%;
+    height:8%;
+    z-index:2;
+}
