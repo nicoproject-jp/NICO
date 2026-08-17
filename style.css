@@ -734,10 +734,10 @@ font-size:18px;
 
 .campfire-overlay{
     position:absolute;
-    left:21%;
+    left:22%;
     top:88%;
     transform:translate(-50%,-50%);
-    width:40%;
+    width:41%;
     height:8%;
     z-index:2;
 }
